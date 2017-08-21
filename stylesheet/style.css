@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+
+article{
+display: flex;
+flex-direction: flex-start;
+font-family:'Dosis';	
+}
+header {
+  border-right: 8px solid pink ; 
+  margin-right: 1%; 
+  margin-left: 1%;
+  text-align:center; 
+}
+.name {
+	font-size:40px;
+}
+
+.education{
+	padding-top:50px;
+}
+p.italic{
+	text-decoration: italic;
+}
+a {
+    color: hotpink ;
+    font-size: 20px;
+}
+
+.nospace{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+p2{
+	text-align:left;
+}
+
+.firstcol {
+  display: flex;
+  flex-direction: flex-start;
+  font-family:'Dosis';
+}
+
+
+h3{
+	text-decoration: underline;
+}
+
+table {
+   
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+ul{
+	margin: 0px;
+}
+li{
+	margin-top:2px;
+}
+dt{
+	font-weight: bold;
+}
+.coloumns{
+max-width: 1300px;
+display: flex;
+}
+
+.awards{
+flex:1;
+padding-left: : 0px;
+border-right: 2px solid pink ; 
+}
+
+.acheivements{
+flex:1;
+border-right: 2px solid pink ; 
+}
+.extraclassroom{
+flex:1.5;
+border-right: 2px solid pink ; 
+ }
+
+ footer{
+	text-align:left;
+ }
