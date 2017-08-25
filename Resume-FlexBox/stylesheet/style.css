@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+/*
+article{	
+}*/
+html,body{
+    font-family:'Dosis';
+}
+.text-center{
+    text-align: center; 
+}
+.name {
+	font-size:40px;
+}
+
+.education{
+	padding-top:50px;
+}
+p.italic{
+	text-decoration: italic;
+}
+a {
+    color:#ff80b3 ;
+    font-size: 20px;
+}
+
+.nospace{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+p2{
+	text-align:left;
+}
+
+.firstcol {
+  display: flex;
+}
+
+
+h3{
+	text-decoration: underline;
+}
+
+table {
+   
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+ul{
+	margin: 0px;
+}
+li{
+	margin-top:2px;
+}
+dt{
+	font-weight: bold;
+}
+.coloumns{
+max-width: 1300px;
+display: flex;
+}
+
+ footer{
+	text-align:left;
+ }
+
+ @media (min-width: 600px){
+  .column-md{
+    display: flex;
+    flex-direction: row;
+  }
+
+  header {
+    border-right: 8px solid pink ; 
+    margin-right: 1%; 
+    margin-left: 1%;
+  }
+
+
+  .award-items{
+    flex:1;
+    padding: 10px;
+    border-right: 2px solid pink; 
+  }
+  .award-items h3 {
+    margin-top: 0; 
+  }
+  .award-items:last-child {
+    border: 0;
+  }
+  .extraclassroom{
+    flex:1.5;
+  }
+
+ }
