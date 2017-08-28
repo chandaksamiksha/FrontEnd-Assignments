@@ -1,0 +1,118 @@
+body{
+background: white;
+}
+
+#game{
+    width: 450px;
+    height: 455px;
+    margin: 0 auto;
+    background: #ffcc99;
+    margin-top: 50px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.row{
+    width: 100%;
+    height: 150px;
+}
+.col{
+    width: 32%;
+    height: 145.5px;
+    border: 3px solid white;
+    float: left;
+    text-align: center;
+    font-size: 150px;
+    font-family: helvetica;
+    color: black;
+    cursor: pointer;
+}
+.matched{
+    color: maroon;
+}
+.player-1-color{
+    color: maroon;
+}
+
+.col:nth-child(1){
+    border-left: none;
+}
+.col:nth-child(3){
+    border-right: none;
+}
+
+.row:nth-child(1) .col{
+    border-top: none;
+    margin-top: 3px;
+}
+.row:nth-child(3) .col{
+    border-bottom: none;
+    margin-bottom: 3px;
+}
+
+#panel{
+    width: 435px;
+    padding: 15px;
+    margin: 0 auto;
+    background:  #ffcc99;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#board{
+    font-size: 30px;
+    font-family: helvetica;
+    color: black;
+    margin-top: 10px;
+}
+
+input[type=text],select
+{
+width: 50%;
+height:50px;
+padding:12px,20px;
+margin:8px,0px;
+display:inline-block;
+font-size: 16px;
+border:1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+
+button:hover{
+    background-color:#ffa366; 
+}
+.submitButton
+{
+    background-color: white;
+    color: black;
+    border:1px solid #ccc;
+    padding: 12px 24px;
+    align-items: : center;
+    text-align: center;
+    display:inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 70%;
+}
+.resetButton
+{
+    background-color: white;
+    color: black;
+    border:1px solid #ccc;
+    padding: 12px 22px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 70%;
+}
+}
