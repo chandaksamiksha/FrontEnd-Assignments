@@ -1,30 +1,43 @@
-<!doctype html>
-
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-	<meta charset="utf-8">
-	<title>Tic Tac Toe</title>
-	<link rel="stylesheet" type="text/css" href="style.css"></link>
+    <title>TicTacToe</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-
 <body>
-<header>
-	<h1>Game on</h1>
-</header>
 
-<div id="canvasdiv">
-<canvas id ="canvas1" width="50" height="50" onclick="loop(1)"></canvas>
-<canvas id ="canvas2" width="50" height="50" onclick="loop(2)"></canvas>
-<canvas id ="canvas3" width="50" height="50" onclick="loop(3)"></canvas><br/>
-<canvas id ="canvas4" width="50" height="50" onclick="loop(4)"></canvas>
-<canvas id ="canvas5" width="50" height="50" onclick="loop(5)"></canvas>
-<canvas id ="canvas6" width="50" height="50" onclick="loop(6)"></canvas><br/>
-<canvas id ="canvas7" width="50" height="50" onclick="loop(7)"></canvas>
-<canvas id ="canvas8" width="50" height="50" onclick="loop(8)"></canvas>
-<canvas id ="canvas9" width="50" height="50" onclick="loop(9)"></canvas>
-</div><br/>
-<button type="button" onclick="reset()">Play Again !!</button>
-<script type="text/javascript" src="script.js"></script>
+<div id="game">
+    
+    <div class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+    </div>
+
+    <div class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+    </div>
+
+    <div class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+    </div>
+
+</div>
+<br/>
+<div id="panel">
+    <input type="text" id="player-1-inp" placeholder="Player 1 Name">
+    <input type="text" id="player-2-inp" placeholder="Player 2 Name">
+    <button id="playButton" class=submitButton>Play</button>
+    <button id="resetButton" class=resetButton>Reset</button>
+    <h1 id="board"></h1>
+</div>
 
 </body>
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script src="javascript/script.js"></script>
+
 </html>
